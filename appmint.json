@@ -17,6 +17,7 @@
   "statusIconsLight": true,
   "url": "",
   "permissions": [
+    "CAMERA",
     "READ_EXTERNAL_STORAGE"
   ],
   "flags": {
