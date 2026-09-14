@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Springfield Drive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="game-container">
+
+        <canvas id="gameCanvas"></canvas>
+
+        <!-- HUD -->
+        <div id="hud">
+
+            <div class="hud-top">
+
+                <div class="money">
+                    💵 $<span id="money">0</span>
+                </div>
+
+                <div class="wanted">
+                    <span id="wanted-label">BÚSQUEDA</span>
+                    <div id="wanted-stars">
+                        ☆ ☆ ☆ ☆ ☆
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="mission-box">
+
+                <div class="mission-title">
+                    MISIÓN
+                </div>
+
+                <div id="mission-text">
+                    Ve hasta el Krusty Burger.
+                </div>
+
+            </div>
+
+            <div id="speedometer">
+                <span id="speed">0</span>
+                <small>KM/H</small>
+            </div>
+
+        </div>
+
+        <!-- Mensaje central -->
+        <div id="message"></div>
+
+        <!-- Controles -->
+        <div id="controls">
+
+            <div class="control-row">
+                <button data-key="w">▲</button>
+            </div>
+
+            <div class="control-row">
+                <button data-key="a">◀</button>
+                <button data-key="s">▼</button>
+                <button data-key="d">▶</button>
+            </div>
+
+            <div class="action-buttons">
+                <button id="action-button">ENTRAR</button>
+            </div>
+
+        </div>
+
+        <!-- Pantalla de inicio -->
+        <div id="start-screen">
+
+            <h1>SPRINGFIELD DRIVE</h1>
+
+            <p>
+                Un prototipo de mundo abierto
+                inspirado en los juegos de conducción arcade.
+            </p>
+
+            <button id="start-button">
+                JUGAR
+            </button>
+
+            <div class="instructions">
+                <p>WASD / Flechas — Mover</p>
+                <p>E — Entrar / salir del vehículo</p>
+                <p>SHIFT — Turbo</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>

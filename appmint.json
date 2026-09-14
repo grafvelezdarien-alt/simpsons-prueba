@@ -1,0 +1,35 @@
+{
+  "name": "Mi App",
+  "slug": "mi-app",
+  "package": "com.appmint.miapp",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "primary": "#7c3aed",
+  "accent": "#34d399",
+  "statusBar": "#6d28d9",
+  "splashBg": "#7c3aed",
+  "primaryNight": "#592aab",
+  "statusBarNight": "#4e1d9c",
+  "splashBgNight": "#592aab",
+  "orientation": "unspecified",
+  "splash": true,
+  "darkMode": -1,
+  "statusIconsLight": true,
+  "url": "",
+  "permissions": [
+    "READ_EXTERNAL_STORAGE"
+  ],
+  "flags": {
+    "externalLinks": false,
+    "confirmExit": true,
+    "popupBlock": true,
+    "pullToRefresh": true,
+    "gestureZoom": true,
+    "desktopMode": false,
+    "hideUserAgent": false,
+    "persistentCookies": false,
+    "preventSleep": false,
+    "blockScreenshots": false,
+    "fullscreen": false
+  }
+}
